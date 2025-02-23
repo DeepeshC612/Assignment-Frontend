@@ -107,7 +107,7 @@ function Hero() {
                   )}
                 </div>
               </div>
-              <ul role="list" className="space-y-6 h-screen">
+              <ul role="list" className="space-y-6 h-fit">
                 {data ? (
                   data?.map((company) => (
                     <CompanyListCard company={company} />
